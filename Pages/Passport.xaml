@@ -9,48 +9,50 @@
       Title="Passport">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,369" Background="White"
+        <Grid Margin="0,0,0,725" Background="White"
 >
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Image/logo.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontSize="19"   FontWeight="Bold"/>
 
             <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
-        <Grid Margin="0,60,0,-0.4">
+        <Grid Margin="0,60,0,0.4">
+
             <Label Content="Паспортные данные" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
             <Label Content="Фамилия" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="10,95,564,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,24,5" VerticalAlignment="Bottom" Width="136" Height="25"/>
             <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top"/>
-            <Button Content="Выбрать ..." HorizontalAlignment="Right" Margin="0,0,9,40" VerticalAlignment="Bottom" Width="114" Height="22"/>
+            <Button Content="Выбрать ..." HorizontalAlignment="Right" Margin="0,0,24,40" VerticalAlignment="Bottom" Width="128" Height="22"/>
             <Label Content="Фамилия" HorizontalAlignment="Left" Margin="266,69,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="266,95,286,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Фамилия" HorizontalAlignment="Left" Margin="549,69,0,0" VerticalAlignment="Top" Width="70"/>
-            <TextBox Height="24" Margin="549,95,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="10,172,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="549,95,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="10,172,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Гражданство" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="10,241,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="10,241,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Место рождения" HorizontalAlignment="Left" Margin="14,276,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="14,307,14,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="14,307,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Серия и номер паспорта" HorizontalAlignment="Left" Margin="14,348,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="14,374,560,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Дата выдачи:" HorizontalAlignment="Left" Margin="270,348,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="270,374,282,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Код подразделения:" HorizontalAlignment="Left" Margin="553,348,0,0" VerticalAlignment="Top" Width="162"/>
-            <TextBox Height="24" Margin="553,374,14,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="553,374,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Кем выдан" HorizontalAlignment="Left" Margin="14,411,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="14,442,14,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="14,442,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Адрес по прописке" HorizontalAlignment="Left" Margin="14,483,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="14,514,272,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Район:" HorizontalAlignment="Left" Margin="553,488,0,0" VerticalAlignment="Top" Width="162"/>
-            <TextBox Height="24" Margin="553,514,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="553,514,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Адрес проживания фактический:" HorizontalAlignment="Left" Margin="14,558,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="14,589,272,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Район:" HorizontalAlignment="Left" Margin="553,563,0,0" VerticalAlignment="Top" Width="162"/>
-            <TextBox Height="24" Margin="553,589,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="553,589,24,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Прикрепить сканы страниц паспорта с фотографией и действующей пропиской" HorizontalAlignment="Left" Margin="23,625,0,0" VerticalAlignment="Top" Width="467"/>
             <Label Content="(Формат документов должен быть PNG, JPEG или PDF,а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="46,656,0,0" VerticalAlignment="Top"  FontSize="10" Foreground="Red"/>
-            <TextBox Height="21" Margin="51,679,128,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="21" Margin="51,679,157,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <ScrollViewer Margin="781,0,0,0"/>
 
         </Grid>
     </Grid>

@@ -44,10 +44,12 @@
                     <Label Content=" правилами приема и правилами внутреннего распорядка обучающихся в данном образовательном учреждении, с Уставом "/>
                     <Label Content="Тухникума ознакомлен(а)"/>
                 <CheckBox Content="С датой представления оригиналов документов ознакомлен(а)"/>
-                    <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,0,10" Width="150" Height="25"/>
+                   
                     
                 </StackPanel>
-          
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,605,23,10" Width="130" Height="25"/>
+            <ScrollViewer Margin="732,0,0,0"/>
+
         </Grid>
     </Grid>
 </Page>

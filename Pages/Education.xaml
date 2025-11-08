@@ -28,13 +28,14 @@
             <TextBox Height="24" Margin="11,257,425,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Средний балл(до сотых)" HorizontalAlignment="Left" Margin="400,226,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="400,257,21,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="108" Height="20"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,21,5" VerticalAlignment="Bottom" Width="124" Height="20"/>
             <CheckBox Content="СПО" HorizontalAlignment="Left" Margin="22,123,0,0" VerticalAlignment="Top"/>
             <CheckBox Content="ВПО" HorizontalAlignment="Left" Margin="22,138,0,0" VerticalAlignment="Top"/>
             <Label Content="(Формат документов должен быть PNG, JPEG или PDF,а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="29,317,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
             <Label Content="Прикрепите сканы страниц документа об образовании с Ф.И.О, с наименованрем образовательной организации и оценками" HorizontalAlignment="Left" Margin="20,291,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="20" Margin="36,340,102,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Выбрать" HorizontalAlignment="Right" Margin="0,0,10,30" VerticalAlignment="Bottom" Width="80" Height="20"/>
+            <TextBox Height="20" Margin="36,340,123,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Button Content="Выбрать" HorizontalAlignment="Right" Margin="0,0,21,30" VerticalAlignment="Bottom" Width="97" Height="20"/>
+            <ScrollViewer Margin="784,0,0,0"/>
         </Grid>
     </Grid>
 </Page>
