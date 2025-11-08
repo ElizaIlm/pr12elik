@@ -1,0 +1,34 @@
+﻿<Page x:Class="pr12eliza.Pages.Contacts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr12eliza.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="750"
+      Title="Contacts">
+
+    <Grid Background="#F8F9FA">
+        <Grid Margin="0,0,0,368" Background="White"
+>
+            <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Image/logo.png"/>
+            <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontSize="19"   FontWeight="Bold"/>
+
+            <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Margin="0,69,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="79*"/>
+                <ColumnDefinition Width="121*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Контакты" HorizontalAlignment="Left" Margin="22,27,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="77"/>
+            <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="22,74,0,0" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="22,100,400,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
+            <Label Content="Мобильный номер:" HorizontalAlignment="Left" Margin="96,74,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <TextBox Height="24" Margin="96,100,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Электронный адрес:" HorizontalAlignment="Left" Margin="22,140,0,0" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="22,166,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        </Grid>
+    </Grid>
+</Page>
